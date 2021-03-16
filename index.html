@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musico</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <script defer src="./index.js"></script>
+</head>
+<body>
+    <div class="intro-load">
+        <div class="content-load">
+            <img src="./me.jpeg" alt="" class="img-load">
+            <br>
+            <p class="txt" style="color: white;">Loading please wait...</p>
+            <br>
+            <p class="txt" style="color: white;">Muxico by Wilfried Akpe</p>
+        </div>
+    </div>
+
+    <a href="" class="logo"><i class="fab fa-github"></i></a>
+
+    <!-- <div class="main-container"> -->
+        <div class="music-container">
+            <!-- image box -->
+            <div class="img-container">
+                <!-- <img src="./img/The College Dropout.jpg" alt=""> -->
+                <img class="img-cover" src="./img/Of Monsters And Men.jpg" alt="">
+            </div>
+            <!-- details -->
+            <h2 class=" texts title center">Jesus Walks</h2>
+            <h3 class="texts artist center">Kanye West</h3>
+            <!-- audio -->
+            <audio src="./audio/Mountain Sound.mp3"></audio>
+            <!-- utils btn  -->
+            <div class="utils-div">
+                <!-- 🔁🔂🔀🔄🔉🔈⁐⇄ -->
+                <p class="icon setLoop" style="font-size: 28px;" title="repeat all">🔁</p>
+                <i class="fas fa-heart" style="font-size: 30px; color: ''; margin-top: 7px;"></i>
+                <p class="icon" style="font-size: 28px;" title="volume">🔊</p>
+                <!-- <i title="shuffle"></i> -->
+                <!-- <i title="repeat"></i> -->
+            </div>
+            <!-- progress bar and timers -->
+            <div class="progress-container">
+                <div class="timer-wrapper">
+                    <span class="start">00:00</span>
+                    <span class="end">00:00</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-bar-fill"></div>
+                </div>
+            </div>
+            <!-- control btns -->
+            <div class="controls-container">
+                <i title="Previous" class="fas fa-backward"></i>
+                <i title="Play" class="fas fa-play"></i>
+                <i title="Next" class="fas fa-forward"></i>
+            </div>
+        </div>
+        <p style="text-align: center; margin-bottom: 20px;" class="subs">Developed by : <a href="#" class="link">Wilfried Akpe</a></p>
+    <!-- </div> -->
+</body>
+</html>
